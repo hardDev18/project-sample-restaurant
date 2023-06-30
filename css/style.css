@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cuntainer{
+    display: grid;
+    grid-template-rows: 80vh repeat(5,max-content);
+    grid-template-columns: repeat(6,1fr);
+}
+.text-title{
+    text-align: center;
+    padding: 25px;
+    font-family: b nazanin;
+    color: orange;
+    font-size: 30px;
+}
+.text-title::after,
+.text-title::before{
+    background-color: black;
+    content: "";
+    display: inline-block;
+    width:6%;
+    position: relative;
+    vertical-align:middle;
+    height: 1px;
+}
+.text-title::after{
+    left: 8px;
+}
+.text-title::before{
+    right: 8px;
+}
