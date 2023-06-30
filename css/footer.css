@@ -51,8 +51,11 @@ color: rgb(17, 199, 17);
 color: rgb(249, 58, 58);
 }
 @media screen and (max-width:560px) {
+    .footer{
+        text-align: center;
+    }
     .footer-seciton{
-        text-align: start;
+        text-align: center;
         margin: 5px;
     }
     .copy{
