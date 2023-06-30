@@ -8,7 +8,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
     grid-template-rows: 1fr;
-    text-align: center;
+    text-align: center !important;
     grid-gap: 7px;
     padding:35px ;
 }
@@ -51,11 +51,9 @@ color: rgb(17, 199, 17);
 color: rgb(249, 58, 58);
 }
 @media screen and (max-width:560px) {
-    .footer{
-        text-align: center;
-    }
+    
     .footer-seciton{
-        text-align: center;
+        text-align: center !important;
         margin: 5px;
     }
     .copy{
